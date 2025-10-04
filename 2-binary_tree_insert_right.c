@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_insert_right - that inserts a node as the right-child of another node
+ * binary_tree_insert_right - the right-child
  * @parent: a pointer to the node to insert the right-child in
  * @value: the new node
  *
@@ -13,7 +13,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 	binary_tree_t *yeni;
 
 	if (parent == NULL)
-                return (NULL);
+		return (NULL);
 
 	yeni = malloc(sizeof(binary_tree_t));
 	if (yeni == NULL)
